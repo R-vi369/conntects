@@ -3,6 +3,7 @@ import '../styles/HeroRight.scss'
 import photo from '../assets/photo.png'
 import video from '../assets/video.png'
 import article from '../assets/article.png'
+import Post from './Post'
 const HeroRight = () => {
   return (
     <>
@@ -34,6 +35,7 @@ const HeroRight = () => {
 
           </div>
         </div>
+        <Post/>
       </div>
 
     </>

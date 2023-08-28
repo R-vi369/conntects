@@ -3,41 +3,43 @@ import { LiaHomeSolid , LiaShoppingBasketSolid } from 'react-icons/lia'
 import { GiMagicLamp } from 'react-icons/gi'
 import {TbFriends } from 'react-icons/tb'
 import {HiOutlineChatAlt} from 'react-icons/hi'
+import {Link} from 'react-router-dom'
 const Header = () => {
     return (
         <>
             <div className="header">
                 <div className="header_logo">
+                    <Link to='/' className='LinkMain'>
                     Connects
                     <GiMagicLamp  className='header_icons'/>
+                    </Link>
                 </div>
 
 
 
                 <div className="header_icons_text">
-                    <div className="header_home">
-
+                    <Link to='/' className="header_home">
                     <LiaHomeSolid className='header_icon active_icon' />
                     <p>Home</p>
-                    </div>
+                    </Link>
 
-                    <div className="header_friends">
+                    <Link to='/Find' className="header_friends">
 
                     <TbFriends  className='header_icon'/>
-                    <p>Friends</p>
-                    </div>
+                    <p>Find</p>
+                    </Link>
 
-                    <div className="header_messaging">
+                    <Link to='/Message' className="header_messaging">
 
                     <HiOutlineChatAlt className='header_icon'/>
                     <p>Messaging</p>
-                    </div>
+                    </Link>
 
-                    <div className="header_shop">
+                    <Link to='/Story' className="header_shop">
 
                     <LiaShoppingBasketSolid className='header_icon'/>
-                    <p>Shop</p>
-                    </div>
+                    <p>Story</p>
+                    </Link>
 
                 </div>
 

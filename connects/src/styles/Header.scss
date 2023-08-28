@@ -11,21 +11,34 @@
 
 
     .header_logo{
+        .LinkMain{
+           
+            text-decoration: none;
+            color: rgb(204, 208, 208);
+            display: flex;
+            align-items: center;
+            gap: 1vw;
+            &:hover{
+                color: white;
+            }
+        }
         width: 20%;
         display: flex;
         font-size: 1.3rem;
-        gap: 1vw;
-        color: azure;
-        align-items: center;
+    
+        // align-items: center;
+        justify-content: center;
+        cursor: pointer;
+       
         .header_icons{
             color: rgb(191, 176, 176);;
             font-size: 2rem;
-            cursor: pointer;
             &:hover{
                 color:white;
             }
             
         }
+       
     }
 
     .header_icons_text{

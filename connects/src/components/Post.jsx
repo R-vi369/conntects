@@ -1,9 +1,13 @@
 import React from 'react'
 import '../styles/Post.scss'
-import love from '../assets/heart.png'
-import chat from '../assets/chat.png'
-import share from '../assets/send.png'
-import save from '../assets/save.png'
+import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import FavoriteIcon from '@mui/icons-material/Favorite';
+import MarkChatUnreadIcon from '@mui/icons-material/MarkChatUnread';
+
+import TelegramIcon from '@mui/icons-material/Telegram';
+
+
+
 const Post = () => {
     return (
         <>
@@ -23,8 +27,9 @@ const Post = () => {
                 <div className="post_icons">
                     
                   <div className="first">
-                  <img src={love} alt="" />
-                   <img src={chat} alt="" />
+                  < FavoriteBorderIcon/>
+                  <MarkChatUnreadIcon/>
+                   
                    <img src={share} alt="" />
                   </div>
                    <div className="last">

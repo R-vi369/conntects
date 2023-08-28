@@ -1,6 +1,7 @@
 import React from 'react'
 import HeroLeft from './HeroLeft'
 import HeroRight from './HeroRight'
+import HeroRight2 from './HeroRight2'
 import '../styles/Hero.scss'
 
 const Hero = () => {
@@ -10,6 +11,7 @@ const Hero = () => {
 
      <HeroLeft/>
      <HeroRight/>
+     <HeroRight2/>
     </div>
     
     

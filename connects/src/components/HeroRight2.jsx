@@ -6,12 +6,8 @@ import TravelExploreIcon from '@mui/icons-material/TravelExplore';
 const HeroRight2 = () => {
   const [count, setCount] = useState(<TurnedInNotIcon />);
   const saveItem = () => {
-    if (<TurnedInNotIcon />) {
-      setCount(<TurnedInIcon />)
-    }
-    else {
-      setCount(<TurnedInNotIcon />)
-    }
+    setCount(!count)
+    
   }
   const [following, setFollowing] =useState ("Follow")
   const Follow =()=>{
@@ -39,7 +35,11 @@ const HeroRight2 = () => {
             <p>570</p>
           </div>
           <div className="item">
-            <p onClick={saveItem}>{count}</p>
+            <p onClick={saveItem}>
+              {count ? <TurnedInNotIcon /> : <TurnedInIcon /> }
+             
+            
+            </p>
             <p>My items</p>
           </div>
 

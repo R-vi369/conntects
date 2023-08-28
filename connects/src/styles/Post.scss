@@ -1,7 +1,7 @@
 .post {
-  height: 96vh;
+  height: 104vh;
   margin-top: 2rem;
-  background-color: rgb(170, 92, 92);
+  // background-color: rgb(170, 92, 92);
   border: 2px solid white;
   display: flex;
   flex-direction: column;
@@ -35,6 +35,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0.3rem;
+    cursor: pointer;
     img{
         width: 27px;
         color: white;
@@ -43,5 +44,9 @@
         display: flex;
         gap: 1rem;
     }
+  }
+  .like_count{
+   padding-left: 0.5rem;
+   font-size: 1.2rem;
   }
 }

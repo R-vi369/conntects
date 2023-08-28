@@ -1,0 +1,125 @@
+.header{
+    width: 100%;
+    height: 12vh;
+    background-color: rgb(11, 11, 11);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+    .header_logo{
+        width: 20%;
+        display: flex;
+        font-size: 1.3rem;
+        gap: 1vw;
+        color: azure;
+        align-items: center;
+        .header_icons{
+            color: rgb(191, 176, 176);;
+            font-size: 2rem;
+            cursor: pointer;
+            &:hover{
+                color:white;
+            }
+            
+        }
+    }
+
+    .header_icons_text{
+        @media (max-width: 780px) {
+            gap: 3rem;
+            p{
+                display: none;
+            }
+            // .header_icon{
+            //     font-size: 5rem;
+            // }
+        }
+        width: 60%;
+        display: flex;
+        // align-items: center;
+        justify-content: center;
+        gap: 6rem;
+        color: white;
+        .header_icon{
+            font-size: 1.3rem;
+            color: rgb(191, 176, 176);
+            &:hover{
+                cursor: pointer;
+                color: white;
+                // border-bottom: 2px solid white;
+            }
+        }
+        p{
+           
+            font-size: 1rem;
+            font-weight: 600;
+          
+        }
+        .header_home{
+            font-size: 1.7vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            // justify-content: space-around;
+            gap: 0.3rem;
+            color: white;
+            border-bottom: 2px solid white;
+
+            .active_icon{
+                color: white;
+            }
+        }
+        .header_friends{
+            font-size: 1.7vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+            color: rgb(191, 176, 176);
+            &:hover{
+                color: white;
+            }
+        }
+        .header_messaging{
+            font-size: 1.7vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+            color: rgb(191, 176, 176);
+            &:hover{
+                color: white;
+            }
+        }
+        .header_shop{
+            font-size: 1.7vw;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.3rem;
+            color: rgb(191, 176, 176);
+            &:hover{
+                color: white;
+            }
+        }
+    }
+
+
+
+    .avatar{
+        width: 20%;
+        color: white;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        h3{
+            font-size: 1.3rem;
+        }
+        img{
+            width: 47px;
+            height: 42px;
+            border-radius: 50%;
+        }
+    }
+}

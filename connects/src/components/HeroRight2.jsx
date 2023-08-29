@@ -7,10 +7,10 @@ const HeroRight2 = () => {
   const [count, setCount] = useState(<TurnedInNotIcon />);
   const saveItem = () => {
     setCount(!count)
-    
+
   }
-  const [following, setFollowing] =useState ("Follow")
-  const Follow =()=>{
+  const [following, setFollowing] = useState("Follow")
+  const Follow = () => {
     setFollowing(!following)
   }
   return (
@@ -28,7 +28,7 @@ const HeroRight2 = () => {
           <div className="view">
 
             <p>Who's viewed your profile</p>
-            <p>269</p>
+            <p>769</p>
           </div>
           <div className="impressions">
             <p>Impressions of your post</p>
@@ -36,9 +36,9 @@ const HeroRight2 = () => {
           </div>
           <div className="item">
             <p onClick={saveItem}>
-              {count ? <TurnedInNotIcon /> : <TurnedInIcon /> }
-             
-            
+              {count ? <TurnedInNotIcon /> : <TurnedInIcon />}
+
+
             </p>
             <p>My items</p>
           </div>
@@ -86,17 +86,17 @@ const HeroRight2 = () => {
 
         </div>
 
-           <div className="follow">
-            <p>Stay up to date with free resources on HR <br /> compliance and culture news.</p>
-            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzzbQTdTmDLehmvWeWS3a3bMCFcPdnYp66fnOLcAylECBeexUOipGqN5l_5M_FwaFueM&usqp=CAU" alt="" />
-            <p>to get access, just follow us on Connects</p>
-            <button onClick={Follow}>
-              
-              {following ? "Follow" : "Followed"}
-              </button>
-           </div>
+        <div className="follow">
+          <p>Stay up to date with free resources on HR <br /> compliance and culture news.</p>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQWzzbQTdTmDLehmvWeWS3a3bMCFcPdnYp66fnOLcAylECBeexUOipGqN5l_5M_FwaFueM&usqp=CAU" alt="" />
+          <p>to get access, just follow us on Connects</p>
+          <button onClick={Follow}>
 
- 
+            {following ? "Follow" : "Followed"}
+          </button>
+        </div>
+
+
 
 
       </div>

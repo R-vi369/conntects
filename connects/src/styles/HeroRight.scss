@@ -1,10 +1,10 @@
 .heroRight {
-  width: 60%;
+  width: 68%;
   height: 100vh;
 
   .heroRight_post {
     width: 100%;
-    height: 30vh;
+    height: 24vh;
     border: 2px solid white;
     border-radius: 0.7rem;
     padding: 1vw;
@@ -13,20 +13,22 @@
     gap: 1.6rem;
     .heroRight_post_pac {
       display: flex;
+      justify-content: center;
+      align-items: center;
       gap: 1.5rem;
       img {
-        width: 45px;
-        height: 45px;
+        width: 48px;
+        height: 48px;
         border-radius: 50%;
       }
       input {
-        width: 87%;
+        width: 60vw;
         border-radius: 20px;
         height: 7vh;
         border: none;
         outline: none;
         padding: 1vw;
-        font-size: 1.4vw;
+        font-size: 1.7vw;
         font-weight: 400;
         background: transparent;
         border: 1px solid white;
@@ -37,52 +39,62 @@
       }
     }
 
-
-    .heroRight_share{
-        display: flex;
-        justify-content: space-evenly;
-        color: white;
-
-        img{
-            width: 29px;
-        
-        }
-        .photo{
-                  width: 15%;
-                  height: 9vh;
-                  padding: 1vw;
-            display: flex;
-            align-items: center;
-            gap: 1vw;
-            &:hover{
-                color: black;
-                background-color: rgb(179, 174, 174);
-            }
-        }
-        .video{
-            width: 15%;
-                  height: 9vh;
-                  padding: 1vw;
-            display: flex;
-            align-items: center;
-            gap: 1vw;
-            &:hover{
-                color: black;
-                background-color: rgb(179, 174, 174);
-            }
-        }
-        .article{
-            width: 25%;
-            height: 9vh;
-            padding: 1vw;
+    .heroRight_share {
       display: flex;
-      align-items: center;
-      gap: 1vw;
-      &:hover{
+      justify-content: space-evenly;
+      color: white;
+
+      img {
+        // @media (max-width:876px) {
+        //   width: 4vw;
+        // }
+        width: 3vw;
+      }
+      .photo {
+        width: 15%;
+        height: 9vh;
+        padding: 1vw;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        &:hover {
           color: black;
           background-color: rgb(179, 174, 174);
-      }
         }
+        p {
+          font-size: 1.4vw;
+        }
+      }
+      .video {
+        width: 15%;
+        height: 9vh;
+        padding: 1vw;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        &:hover {
+          color: black;
+          background-color: rgb(179, 174, 174);
+        }
+        p {
+          font-size: 1.4vw;
+        }
+      }
+      .article {
+        width: 25%;
+        height: 9vh;
+        padding: 1vw;
+        display: flex;
+        align-items: center;
+        gap: 1vw;
+        &:hover {
+          color: black;
+          background-color: rgb(179, 174, 174);
+        }
+        p {
+          font-size: 1.4vw;
+        }
+      }
     }
   }
 }

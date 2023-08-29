@@ -10,16 +10,16 @@ import TurnedInIcon from '@mui/icons-material/TurnedIn';
 
 
 
-const Post = ( {dp, name, img, caption , like, career}) => {
+const Post = ({ dp, name, img, caption, like, career }) => {
     const [save, setSave] = useState();
     const turnSave = () => {
         setSave(!save)
     }
 
-const[love, setLove]=useState()
- const Lovebtn=()=>{
-     setLove(!love)
- }
+    const [love, setLove] = useState()
+    const Lovebtn = () => {
+        setLove(!love)
+    }
 
     return (
         <>
@@ -35,22 +35,23 @@ const[love, setLove]=useState()
                 </div>
                 <div className="post_img">
                     <img src={img} alt="" />
+              
                 </div>
                 <div className="post_icons">
 
                     <div className="first">
                         <p onClick={Lovebtn}>
 
-                        {
-                            love?  <FavoriteIcon/>:< FavoriteBorderIcon />
-                        }
+                            {
+                                love ? <FavoriteIcon style={{ color: 'red' }} /> : < FavoriteBorderIcon />
+                            }
                         </p>
                         <MarkChatUnreadIcon />
                         <TelegramIcon />
                     </div>
                     <div className="last" onClick={turnSave}>
                         {
-                            save ?  < TurnedInNotIcon /> :< TurnedInIcon /> 
+                            save ? < TurnedInNotIcon /> : < TurnedInIcon />
                         }
 
 
@@ -61,7 +62,7 @@ const[love, setLove]=useState()
                 <div className="like_count">
 
                     <p>{like} Like</p>
-                        <p>{caption}</p>
+                    <p>{caption}</p>
                 </div>
 
             </div>

@@ -1,8 +1,12 @@
 .post {
-  height: 104vh;
+  @media (max-width: "786px"){
+    height: 89vw;
+  }
+  height: 55vw;
   margin-top: 2rem;
   // background-color: rgb(170, 92, 92);
   border: 2px solid white;
+  border-radius: 9px;
   display: flex;
   flex-direction: column;
   color: white;
@@ -28,6 +32,7 @@
   .post_img {
     img{
         width: 100%;
+        cursor: pointer;
     }
   }
 

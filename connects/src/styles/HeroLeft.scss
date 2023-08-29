@@ -1,5 +1,5 @@
 .heroLeft {
-  width: 15%;
+  width: 16%;
   height: 100vh;
   display: flex;
   justify-content: end;
@@ -10,7 +10,7 @@
 
   .heroLeft_friendReq {
     width: 98%;
-    height: 48vh;
+    height: 44vh;
     border: 2px solid rgb(255, 255, 254);
     border-radius: 9px;
     display: flex;
@@ -33,8 +33,12 @@
         transform: scale(1.5);
       }
     }
+    p{
+      font-size: 2vw;
+      
+    }
     h1 {
-      font-size: 1.5rem;
+      font-size: 1.5vw;
       padding: 0.5rem;
     }
     .btn {
@@ -49,12 +53,14 @@
         cursor: pointer;
       }
       .btn1 {
+        font-size: 1.2vw;
         &:hover {
           background-color: red;
           border: none;
         }
       }
       .btn2 {
+        font-size: 1.2vw;
         &:hover {
           color: black;
           background-color: rgb(38, 224, 44);

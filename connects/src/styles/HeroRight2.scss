@@ -1,8 +1,6 @@
 .heroRight2{
-    width: 18% ;
+    width: 15% ;
     height: 100vh;
-    // position: fixed;
-    // top: 0%;
     color: white;
 
     .profile{
@@ -13,6 +11,12 @@
         align-items: center;
         border: 2px solid white;
         border-radius: 9px;
+        h2{
+            font-size: 1.5vw;
+        }
+        p{
+            font-size: 1.4vw;
+        }
 
         img{
             width: 60px;
@@ -23,24 +27,24 @@
 
     .heroRight_view{
         margin-top: 1rem;
+        margin-bottom: 1rem;
         height: 23vh;
         display: flex;
         flex-direction: column;
         justify-content: center;
-
-        // border: 2px solid white;
        .view{
         height: 5vh;
         display: flex;
         justify-content: space-between;
         align-items: center;
         p{
-            font-size: 1rem;
+            font-size: 1.1vw;
             font-weight: 500;
         }
         &:hover{
             background-color: rgb(187, 192, 195);
-            color: black;
+            color: rgb(44, 22, 22);
+           
         }
        }
        .impressions{
@@ -49,12 +53,13 @@
         justify-content: space-between;
         align-items: center;
         p{
-            font-size: 0.9rem;
+            font-size: 1vw;
             font-weight: 500;
         }
         &:hover{
             background-color: rgb(187, 192, 195);
             color: black;
+           
         }
        }
 
@@ -70,11 +75,11 @@
     }
 
     .recent{
-    height: 50vh;
+    height: 603h;
     border: 2px solid white;
     border-radius: 9px;
     p{
-        font-size: 1rem;
+        font-size: 1.8vw;
         margin: 0.6rem;
     }
     .recent_serach{
@@ -86,7 +91,7 @@
             justify-content: center;
             cursor: pointer;
             p{
-                font-size: 0.9rem;
+                font-size: 1.1vw;
             }
             &:hover{
                 color: white;
@@ -97,12 +102,15 @@
         display: flex;
         flex-wrap: wrap;
         cursor: pointer;
+        p{
+            font-size: 1.2vw;
+        }
     }
 
     }
     .follow{
        
-        height: 40vh;
+        height: 43vh;
         border: 2px solid white;
         border-radius: 9px;
         margin-top: 0.8rem;
@@ -111,17 +119,17 @@
         align-items: center;
         flex-direction: column;
         p{
-            font-size: 0.8rem;
+            font-size: 1.1vw;
+            text-align: center;
             padding: 0.7rem;
             font-weight: 700;
             
-
         }
         img{
             width: 100px;
         }
         button{
-            padding: 0.7rem;
+            padding: 0.7vw;
             font-weight: 600;
             background-color: transparent;
             border: 2px solid white;
@@ -130,11 +138,9 @@
             cursor: pointer;
             &:hover{
                 background-color: rgb(47, 41, 102);
-                color: rgb(255, 243, 243);
+                color: rgb(255, 255, 255);
             }
         }
-
-
 
     }
 

@@ -1,0 +1,49 @@
+.story{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(33, 27, 62);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 2.6rem;
+
+    .story_container{
+        width: 80%;
+        height: 60vh;
+        border: 2px solid white;
+        display: flex;
+        align-items: center;
+        overflow-x: scroll;
+        ::-webkit-scrollbar {
+           display: none;
+        }
+    
+
+        .box{
+            
+           margin: 1rem;
+            width: 70%;
+            height: 51vh;
+            border: 2px solid rgb(227, 217, 217);
+            box-shadow: 3px 3px 5px grey;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+            
+            img{
+                overflow: hidden;
+                width: 200px;
+                height: 45vh;
+                opacity: 0.6;
+                &:hover{
+                    opacity: 1;
+                }
+            }
+
+        }
+      
+       
+    }
+}

@@ -1,0 +1,87 @@
+[  
+
+    {
+      "id": 1,
+       "img": "https://www.indiablooms.com/postcard_pic/2022/b0266af90c2ce00ec93f26b2db11b79e.jpg",
+      "Name": "Shilpa Shetty"
+    },
+    {
+        "id": 2,
+         "img": "https://i.zoomtventertainment.com/story/amanda_cerny_diwali_looks.jpg?tr=w-400,h-300,fo-auto",
+        "Name": "amanda cerny"
+      },
+      {
+        "id": 3,
+         "img": "https://resizing.flixster.com/wVnLGfFm0Ttb4xEUxvEcHQr9sy4=/218x280/v2/https://flxt.tmsimg.com/assets/90028_v9_bb.jpg",
+        "Name": "Akshay kumar"
+      }, 
+      {
+        "id": 4,
+         "img": "https://pbs.twimg.com/media/FM5qKZBVgAAOGYB.jpg:large",
+        "Name": "Ratan Tata"
+      },
+      {
+        "id": 5,
+         "img": "https://static.toiimg.com/photo/msid-58298236/58298236.jpg",
+        "Name": "Ria Nalavade"
+      },
+
+
+      {
+        "id": 6,
+         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRXIrNv_fdfMZA9PJ97LAHIjQFI_b_knaMtNQ&usqp=CAU",
+        "Name": "Mithun Chakraborty"
+      },
+      {
+        "id": 7,
+         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRljbN-VNEbiwqh-9qrk9xDmJ_6IZYdO4htwA&usqp=CAU",
+        "Name": "Priyanka chopra"
+      },
+
+
+      {
+        "id": 8,
+         "img": "https://w0.peakpx.com/wallpaper/964/823/HD-wallpaper-amisha-patel.jpg",
+        "Name": "Amisha Pate"
+      },
+
+      {
+        "id": 9,
+         "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/photogallery/201112/salman-660_061013102923.jpg?VersionId=Sd6Lemu14u2Unm9mAF4iXp7WAo60.7cn",
+        "Name": "Salman Khan"
+      },
+
+
+      {
+        "id": 10,
+         "img": "https://media.gettyimages.com/id/524565910/photo/aishwarya-rai-bachchan-poses-for-pictures-at-the-press-conference-to-celebrate-15-years-at.jpg?s=612x612&w=gi&k=20&c=lXG8y3gJd_LmQIhni0AIiPv9ElQIcbEoNBFRGDq2hiE=",
+        "Name": "Aishwarya rai"
+      },
+
+
+      {
+        "id": 11,
+         "img": "https://i2.cinestaan.com/image-bank/1500-1500/139001-140000/139336.jpg",
+        "Name": "Mothis Raina"
+      },
+
+
+      {
+        "id": 12,
+         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR3vvLKO7BRCUFSzxCqLYeszC-P7Guts-6gaQ&usqp=CAU",
+        "Name": "Ram charan"
+      },
+
+
+      {
+        "id": 13,
+         "img": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Virat_Kohli_during_the_India_vs_Aus_4th_Test_match_at_Narendra_Modi_Stadium_on_09_March_2023.jpg",
+        "Name": "Virat Kohli"},
+
+      {
+        "id": 14,
+         "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSF2AKEExlAsAu5t1ZSdE7cAVZfui6ShfLH5Q&usqp=CAU",
+        "Name": "chinki"
+      }
+  ]
+  

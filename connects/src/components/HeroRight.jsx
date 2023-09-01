@@ -15,9 +15,7 @@ const HeroRight = () => {
       <div className="heroRight">
         <div className="heroRight_post">
           <div className="heroRight_post_pac">
-
             <img src="https://imgv3.fotor.com/images/slider-image/A-blurry-image-of-a-woman-wearing-red.jpg" alt="" />
-
             <input type="text" placeholder='Share Something...' />
           </div>
 
@@ -43,8 +41,7 @@ const HeroRight = () => {
         <Post dp={chris_dp} name="Cris Hemsworth" career="Australian Actor" img={chris_post} like="3459334" caption="i am chis posting this pic from india" />
 
         <Post dp={billie_dp} name="Billie Eilish" career="
-American singer-songwriter
-" img={billie_post} like="6512879" caption="i am chis posting this pic from india" />
+            American singer-songwriter" img={billie_post} like="6512879" caption="i am chis posting this pic from india" />
 
 
 

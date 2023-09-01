@@ -1,13 +1,13 @@
 import React from 'react'
 import '../styles/Story.scss'
 import storyApi from '../story.json'
-import { Avatar } from '@mui/material'
-
 const Story = () => {
   return (
     <>
       <div className="story">
-        <div className="story_container">
+
+        <div className="story_box">
+
           {
             storyApi.map(items => {
 
@@ -16,9 +16,9 @@ const Story = () => {
                   {/* <Avatar/> */}
 
                   <img src={items.img} alt="" />
-                  <p>
+                  {/* <p>
                     {items.Name}
-                  </p>
+                  </p> */}
                 </div>
               )
 
@@ -28,10 +28,20 @@ const Story = () => {
       </div>
 
 
-       
+
+
 
     </>
   )
 }
 
 export default Story
+
+
+
+
+
+
+
+
+

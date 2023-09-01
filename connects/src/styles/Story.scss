@@ -1,75 +1,75 @@
-// @media (max-width: "786px") {
-//     .story{
-//         .story_container{
-//             height: 55vh;
-//         }
-
-//             .box{
-//                 height: 90vh;
-//                 width: 90%;
-//             }
-//     }
-
-// }
-.story {
+.story_box::-webkit-scrollbar{
+  display: none;
+}
+.story{
   width: 100%;
   height: 100vh;
-  background-color: rgb(33, 27, 62);
+  background-color: rgb(14, 14, 70);
   display: flex;
   justify-content: center;
   align-items: center;
-  color: white;
-  margin-top: 2.6rem;
-  .story_container::-webkit-scrollbar {
-    display: none;
-  }
-
-  .story_container {
-    width: 90%;
-    height: 60vh;
-    border: 1px solid rgb(118, 113, 113);
+ 
+  .story_box{
+    width: 80%;
+    margin-top: 6rem;
+    height: 70vh;
+    border: 2px solid white;
     display: flex;
-    align-items: center;
-
     overflow-x: scroll;
-
-    .box {
-      margin: 1.1rem;
-      padding: 5.5rem;
-      width: 70%;
-      height: 49vh;
-      border: 2px solid rgb(227, 217, 217);
-      box-shadow: 3px 3px 5px grey;
+    
+    .box{
+      // overflow: hidden;
+      width: 30%;
+      height: 50vh;
+      color: white;
+      border: 2px solid white;
+      margin: 3rem 1.2rem;
       display: flex;
+      justify-content: space-between;
       flex-direction: column;
-      align-items: center;
-      border-radius: 15px;
-      overflow: hidden;
+      border-radius: 1.2rem;
+     
 
-      .img {
-        background-size: cover;
-
-        width: 200px;
-        height: 70vh;
-        opacity: 0.6;
-        cursor: pointer;
-        &:hover {
-          transform:  scale(1.07);
-          transform: translate(1.4);
-          opacity: 1;
-
+      img{
+        border-radius: 1.2rem;
+        width: 12rem;
+        height: 100vh;
+    overflow: hidden;
+        object-fit: cover;
+        opacity: 0.9;
+        &:hover{
+         opacity: 1;
+     
         }
-      }
-      p {
-        position: relative;
-        bottom: 2rem;
-
-        color: #fffdfd;
-        font-size: 1vw;
-        font-weight: 800;
-
       }
     }
   }
 }
 
+
+
+
+
+@media (max-width:"786px") {
+  .story{
+    background-color: white;
+
+    .story_box{
+      border: 2px solid green;
+      background-color : whitesmoke;
+
+      .box{
+     width: 50%;
+        color: rgb(40, 36, 36);
+        border: 2px solid rgb(31, 201, 79);
+        margin: 4rem 2rem;
+      
+        img{
+          
+        }
+    }
+
+     
+    }
+  }
+}

@@ -11,12 +11,6 @@
 
   .header_logo {
     .LinkMain {
-        @media (max-width:780px) {
-            .connects{display: none;}
-            .header_icons{
-                font-size: 4rem;
-            }
-        }
       text-decoration: none;
       color: rgb(204, 208, 208);
       display: flex;
@@ -44,17 +38,6 @@
   }
 
   .header_icons_text {
-    @media (max-width: 780px) {
-      gap: 3rem;
-      p {
-        display: none;
-      }
-     .header_home, .header_friends, .header_messaging, .header_shop{
-        .header_icon{
-            font-size: 2rem;
-        }
-     }
-    }
     width: 60%;
     display: flex;
     // align-items: center;
@@ -124,9 +107,8 @@
   }
 
   .avatar {
-    @media (max-width:780px) {
-        display: none;
-        
+    @media (max-width: 780px) {
+      display: none;
     }
     width: 20%;
     color: white;
@@ -141,5 +123,52 @@
       height: 42px;
       border-radius: 50%;
     }
+  }
+}
+
+@media (max-width: 786px) {
+  .header {
+    // justify-content: start;
+    flex-direction: column;
+    background-color: rgb(249, 249, 249);
+    .header_logo {
+      .LinkMain {
+        .connects {
+          // display: none;
+          color: green;
+          font-weight: 800;
+          font-size: 5.6vw;
+          position: relative;
+          left: -8rem;
+        }
+        .header_icons {
+         display: none;
+        }
+      }
+    }
+    .header_icons_text {
+       gap: 0;
+       justify-content: space-between;
+      .header_home{
+
+        .active_icon{
+          color: rgb(128, 31, 31);
+        }
+      }
+      p {
+        display: none;
+      }
+      .header_icon{
+        font-size: 2.6rem;
+        color: rgb(47, 33, 33);
+        &:hover{
+          color: green;
+        }
+      }
+    }
+  }
+
+  .avatar{
+    display: none;
   }
 }

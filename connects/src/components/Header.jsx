@@ -11,7 +11,6 @@ const Header = () => {
                 <div className="header_logo">
                     <Link to='/' className='LinkMain'>
                         <div className="connects">
-
                             Connects
                         </div>
                         <GiMagicLamp className='header_icons' />
@@ -48,7 +47,7 @@ const Header = () => {
 
 
                 <div className="avatar">
-                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRcLUO1YT9xjfHdUJXTr3b_vl9bd2R0FIbIA&usqp=CAU" alt="" />
+                    <img src="https://img.olympicchannel.com/images/image/private/t_s_w960/t_s_16_9_g_auto/f_auto/primary/qpr4zk5ybnwg0gpmuctd" alt="" />
                     <h3>Ravi</h3>
                 </div>
 

@@ -3,6 +3,7 @@ import { LiaHomeSolid, LiaShoppingBasketSolid } from 'react-icons/lia'
 import { GiMagicLamp } from 'react-icons/gi'
 import { TbFriends } from 'react-icons/tb'
 import { HiOutlineChatAlt } from 'react-icons/hi'
+import { IoIosNotificationsOutline } from 'react-icons/io'
 import { Link } from 'react-router-dom'
 const Header = () => {
     return (
@@ -15,6 +16,11 @@ const Header = () => {
                         </div>
                         <GiMagicLamp className='header_icons' />
                     </Link>
+                    <div className="notification">
+                        <Link to='/Notify' style={{textDecoration: 'none'}}>
+                        <IoIosNotificationsOutline /><sup>87</sup>
+                        </Link>
+                    </div>
                 </div>
 
 
@@ -46,10 +52,12 @@ const Header = () => {
                 </div>
 
 
+
                 <div className="avatar">
                     <img src="https://img.olympicchannel.com/images/image/private/t_s_w960/t_s_16_9_g_auto/f_auto/primary/qpr4zk5ybnwg0gpmuctd" alt="" />
                     <h3>Ravi</h3>
                 </div>
+
 
             </div>
 

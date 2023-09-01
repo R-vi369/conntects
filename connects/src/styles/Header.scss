@@ -7,9 +7,12 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 1px solid white;
+  border-bottom: 2px solid rgb(18, 142, 16);
 
   .header_logo {
+    .notification{
+      display: none;
+    }
     .LinkMain {
       text-decoration: none;
       color: rgb(204, 208, 208);
@@ -107,7 +110,7 @@
   }
 
   .avatar {
-    @media (max-width: 780px) {
+    @media (max-width: ("786px")) {
       display: none;
     }
     width: 20%;
@@ -124,22 +127,50 @@
       border-radius: 50%;
     }
   }
+
+
 }
 
 @media (max-width: 786px) {
   .header {
-    // justify-content: start;
+    height: 15vh;
     flex-direction: column;
     background-color: rgb(249, 249, 249);
     .header_logo {
+      width: 100%;
+      .notification{
+        Link{
+        
+        }
+        display: block;
+           font-size: 1.5rem;
+         padding-left: 3.5rem;
+         padding-top: 0.4rem;
+         &:hover{
+          color: green;
+          cursor: pointer;
+         }
+         sup{
+          height: 3vw;
+          width: 3vw;
+          font-size:0.6rem;
+          padding: 0.7vw;
+          background-color: green;
+          color: white;
+          border-radius: 50%;
+          position: relative;
+          right: 0.7rem;
+          bottom: 0.4rem;
+         }
+      }
       .LinkMain {
         .connects {
-          // display: none;
-          color: green;
+            padding-left: 9rem;
+           color: green;
           font-weight: 800;
-          font-size: 5.6vw;
+          font-size: 6.6vw;
           position: relative;
-          left: -8rem;
+          left: -9rem;
         }
         .header_icons {
          display: none;
@@ -168,7 +199,4 @@
     }
   }
 
-  .avatar{
-    display: none;
-  }
 }

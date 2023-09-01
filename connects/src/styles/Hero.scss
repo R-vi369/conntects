@@ -7,5 +7,9 @@
     margin-top: 4.5rem;
     gap: 1.5rem;
     background-color: rgb(33, 27, 62);
+
+    @media (max-width: '786px'){
+           background-color: rgb(239, 242, 242);
+    }
    
 }

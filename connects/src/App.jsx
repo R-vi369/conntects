@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import Find from './pages/Find'
 import Message from './pages/Message'
 import Story from './pages/Story'
+import Notify from './pages/Notify'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
           <Route path='/Find' element={<Find />} />
           <Route path='/Message' element={<Message />} />
           <Route path='/Story' element={<Story />} />
+           <Route path='/Notify' element={<Notify/>} />
         </Routes>
       </Router>
 

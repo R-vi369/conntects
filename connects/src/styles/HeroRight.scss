@@ -1,3 +1,4 @@
+
 .heroRight {
   width: 68%;
   height: 100vh;
@@ -5,7 +6,7 @@
   .heroRight_post {
     width: 100%;
     height: 24vh;
-    border: 2px solid white;
+    border: 2px solid rgb(224, 233, 224);
     border-radius: 0.7rem;
     padding: 1vw;
     display: flex;
@@ -20,6 +21,7 @@
         width: 48px;
         height: 48px;
         border-radius: 50%;
+
       }
       input {
         width: 60vw;
@@ -27,13 +29,13 @@
         height: 7vh;
         border: none;
         outline: none;
-        padding: 1vw;
-        font-size: 1.7vw;
+        padding-left: 3vw;
+        font-size: 1.9vw;
         font-weight: 400;
         background: transparent;
-        border: 1px solid white;
+        border: 1px solid rgb(225, 225, 225);
         &:hover {
-          background-color: rgb(83, 73, 73);
+          background-color: rgb(230, 216, 216);
           color: black;
         }
       }
@@ -45,13 +47,10 @@
       color: white;
 
       img {
-        // @media (max-width:876px) {
-        //   width: 4vw;
-        // }
         width: 3vw;
       }
       .photo {
-        width: 15%;
+        width: 20%;
         height: 9vh;
         padding: 1vw;
         display: flex;
@@ -66,7 +65,7 @@
         }
       }
       .video {
-        width: 15%;
+        width: 20%;
         height: 9vh;
         padding: 1vw;
         display: flex;
@@ -81,7 +80,7 @@
         }
       }
       .article {
-        width: 25%;
+        width: 28%;
         height: 9vh;
         padding: 1vw;
         display: flex;
@@ -98,3 +97,55 @@
     }
   }
 }
+
+@media (max-width: '785px') {
+  .heroRight{
+    width: 88%;
+    .heroRight_post{
+      border: 2px solid green;
+      margin-top: 1.5rem;
+
+      .heroRight_post_pac{
+
+
+        input {
+          width: 60vw;
+          border-radius: 20px;
+          height: 7vh;
+          border: none;
+          outline: none;
+          padding-left: 3vw;
+          font-size: 2.4vw;
+          font-weight: 600;
+          background: transparent;
+          border: 1px solid rgb(61, 222, 66);
+          &:hover {
+            background-color: rgb(146, 213, 160);
+            border: none;
+            color: rgb(242, 229, 229);
+          }
+        }
+        
+      }
+
+      .heroRight_share{
+        color: black;
+        img{
+          width: 5.7vw;
+        }
+        .photo, .video, .article{
+          p{
+            
+            font-size: 1rem;
+            font-weight: 600;
+          
+            &:hover{
+              color: green;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

@@ -1,8 +1,5 @@
 .post {
-  @media (max-width: "786px"){
-    height: 89vw;
-  }
-  height: 55vw;
+  height: 53vw;
   margin-top: 2rem;
   // background-color: rgb(170, 92, 92);
   border: 2px solid white;
@@ -54,4 +51,17 @@
    padding-left: 0.5rem;
    font-size: 1.2rem;
   }
+}
+
+@media (max-width: "786px"){
+.post{
+  border: 2px solid green;
+  height: 60vh;
+  
+  color: black;
+
+  .post_avatar{
+    color: black;
+  }
+}
 }

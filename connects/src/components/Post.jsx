@@ -21,9 +21,13 @@ const Post = ({ dp, name, img, caption, like, career }) => {
         setLove(!love)
     }
 
+
+    
+
     return (
         <>
             <div className="post">
+               
 
                 <div className="post_avatar">
                     <img src={dp} alt="" />

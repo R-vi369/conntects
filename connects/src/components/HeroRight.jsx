@@ -10,13 +10,41 @@ import chris_dp from '../assets/crish_dp.jpg'
 import chris_post from '../assets/chris_post.jpg'
 
 const HeroRight = () => {
+//   const [share, setShare] = useState();
+//   const [mainTask, setMainTask] = useState([])
+//    const sharePost=(e)=>{
+//     setShare(e.target.value)
+//    }
+
+//    const submitHandler =(e)=>{
+//     e.preventDefault()
+//  setMainTask([...mainTask, {share}])
+//     setShare("")
+//     console.log(mainTask);
+//    }
+
+//     const renderTask = ''
+
+ 
+//    renderTask = mainTask.map((t,i)=>{
+//           return(
+
+//             <div>
+//             {t.share}
+//           </div>
+//             );
+//    })
+
   return (
     <>
       <div className="heroRight">
         <div className="heroRight_post">
           <div className="heroRight_post_pac">
             <img src="https://imgv3.fotor.com/images/slider-image/A-blurry-image-of-a-woman-wearing-red.jpg" alt="" />
+            <form action="">
+
             <input type="text" placeholder='Share Something...' />
+            </form>
           </div>
 
 
@@ -38,6 +66,12 @@ const HeroRight = () => {
 
           </div>
         </div>
+
+           {/* <div className="sharepost">
+         <p>{renderTask}</p>
+
+           </div> */}
+
         <Post dp={chris_dp} name="Cris Hemsworth" career="Australian Actor" img={chris_post} like="3459334" caption="i am chis posting this pic from india" />
 
         <Post dp={billie_dp} name="Billie Eilish" career="

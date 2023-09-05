@@ -1,8 +1,22 @@
 import React from 'react'
+import Video from './Video';
+import '../assets/Find.scss'
 
 const Find = () => {
   return (
-    <div>Find</div>
+    <>
+
+      <div className="find">
+        
+          <Video/>
+          {/* <Video/> */}
+
+      </div>
+
+
+
+
+    </>
   )
 }
 

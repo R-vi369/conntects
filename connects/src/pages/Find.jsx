@@ -1,6 +1,6 @@
 import React from 'react'
-import Video from './Video';
-import '../assets/Find.scss'
+import VideosHere from './VideosHere';
+import '../styles/Find.scss'
 
 const Find = () => {
   return (
@@ -8,8 +8,8 @@ const Find = () => {
 
       <div className="find">
         
-          <Video/>
-          {/* <Video/> */}
+          <VideosHere/>
+          <VideosHere/>
 
       </div>
 

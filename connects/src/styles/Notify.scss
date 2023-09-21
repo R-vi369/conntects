@@ -1,0 +1,38 @@
+
+.notify_box{
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+  
+
+
+border: 3px solid red;
+
+
+   
+.notify{
+    width: 90%;
+    &:hover{
+        background-color: grey;
+    }
+    background-color: green;
+     display: flex;
+     justify-content: space-between;
+    margin-left: 1.6rem;
+    .notify_left{
+        display: flex;
+    align-items: center;
+    padding: 1rem;
+    gap: 1rem;
+    img{
+        width: 3rem;
+        height: 3rem;
+        border-radius: 50%;
+    }
+}
+.notify_right{
+    display: flex;
+    padding-left: 4rem;
+    align-items: center;
+}
+
+}}

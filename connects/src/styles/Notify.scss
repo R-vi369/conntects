@@ -1,23 +1,20 @@
-
+.notification_wrapper{
+    margin-top: 7.9rem;
+}
 .notify_box{
     width: 100%;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(249, 245, 245);
   
-
-
-border: 3px solid red;
-
-
    
 .notify{
     width: 90%;
     &:hover{
-        background-color: grey;
+        background-color: rgb(241, 239, 239);
     }
-    background-color: green;
+    background-color: rgb(225, 233, 225);
      display: flex;
      justify-content: space-between;
-    margin-left: 1.6rem;
+    margin-left: 1rem;
     .notify_left{
         display: flex;
     align-items: center;
@@ -27,12 +24,14 @@ border: 3px solid red;
         width: 3rem;
         height: 3rem;
         border-radius: 50%;
+        object-fit: cover;
     }
 }
 .notify_right{
     display: flex;
     padding-left: 4rem;
     align-items: center;
+     gap: 1rem;
 }
 
 }}

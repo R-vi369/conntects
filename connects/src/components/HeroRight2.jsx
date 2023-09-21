@@ -18,7 +18,7 @@ const HeroRight2 = () => {
       <div className="heroRight2">
 
         <div className="profile">
-          <img src="https://imgv3.fotor.com/images/slider-image/A-clear-close-up-photo-of-a-woman.jpg" alt="" />
+          <img src="https://avatars.githubusercontent.com/u/108292786?s=400&u=8cd906ad42c90cc795c8954bf9c5afc7723da517&v=4" alt="" />
           <h2>Ravi</h2>
           <p>Frontend-dev ! React.js</p>
 

@@ -7,13 +7,14 @@
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  border-bottom: 2px solid rgb(18, 142, 16);
+
 
   .header_logo {
     .notification{
       display: none;
     }
     .LinkMain {
+      
       text-decoration: none;
       color: rgb(204, 208, 208);
       display: flex;
@@ -68,7 +69,7 @@
       // justify-content: space-around;
       gap: 0.3rem;
       color: white;
-      border-bottom: 2px solid rgb(169, 181, 218);
+      // border-bottom: 2px solid rgb(169, 181, 218);
 
       .active_icon {
         color: white;
@@ -125,11 +126,19 @@
       width: 47px;
       height: 42px;
       border-radius: 50%;
+      object-fit: cover;
+      cursor: pointer;
     }
   }
 
 
 }
+
+
+
+
+
+    //  responsive
 
 @media (max-width: 786px) {
   .header {
@@ -139,9 +148,7 @@
     .header_logo {
       width: 100%;
       .notification{
-        Link{
         
-        }
         display: block;
            font-size: 1.5rem;
          padding-left: 3.5rem;
@@ -178,6 +185,9 @@
       }
     }
     .header_icons_text {
+      .notify_icon{
+        display: none;
+       }
        gap: 0;
        justify-content: space-between;
       .header_home{

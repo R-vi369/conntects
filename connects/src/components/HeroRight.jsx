@@ -9,6 +9,7 @@ import billie_post from '../assets/billie_post.jpg'
 import chris_dp from '../assets/crish_dp.jpg'
 import chris_post from '../assets/chris_post.jpg'
 
+
 const HeroRight = () => {
 //   const [share, setShare] = useState();
 //   const [mainTask, setMainTask] = useState([])
@@ -40,7 +41,7 @@ const HeroRight = () => {
       <div className="heroRight">
         <div className="heroRight_post">
           <div className="heroRight_post_pac">
-            <img src="https://imgv3.fotor.com/images/slider-image/A-blurry-image-of-a-woman-wearing-red.jpg" alt="" />
+            <img src="https://avatars.githubusercontent.com/u/108292786?s=400&u=8cd906ad42c90cc795c8954bf9c5afc7723da517&v=4" alt="" />
             <form action="">
 
             <input type="text" placeholder='Share Something...' />

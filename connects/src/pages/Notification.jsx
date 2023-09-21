@@ -14,7 +14,7 @@ const Notification = ({ img, text, time, icon }) => {
         </div>
           <div className="notify_right">
             <p>{time}</p>
-            <p>...</p>
+            < MoreHorizIcon/>
           </div>
           </div>
           </div>

@@ -4,6 +4,7 @@ import { GiMagicLamp } from 'react-icons/gi'
 import { TbFriends } from 'react-icons/tb'
 import { HiOutlineChatAlt } from 'react-icons/hi'
 import { IoIosNotificationsOutline } from 'react-icons/io'
+import NotificationsIcon from '@mui/icons-material/Notifications';
 import { Link } from 'react-router-dom'
 const Header = () => {
     return (
@@ -17,8 +18,8 @@ const Header = () => {
                         <GiMagicLamp className='header_icons' />
                     </Link>
                     <div className="notification">
-                        <Link to='/Notify' style={{textDecoration: 'none'}}>
-                        <IoIosNotificationsOutline /><sup>87</sup>
+                        <Link to='/Notify' style={{ textDecoration: 'none' }}>
+                            <IoIosNotificationsOutline /><sup>87</sup>
                         </Link>
                     </div>
                 </div>
@@ -49,14 +50,22 @@ const Header = () => {
                         <p>Story</p>
                     </Link>
 
+                    <Link to='/Notify' className="header_shop notify_icon" >
+
+                        <NotificationsIcon
+                            className='header_icon' />
+                        <p>Notifications</p>
+                    </Link>
+
+
                 </div>
 
 
 
-                <div className="avatar">
-                    <img src="https://img.olympicchannel.com/images/image/private/t_s_w960/t_s_16_9_g_auto/f_auto/primary/qpr4zk5ybnwg0gpmuctd" alt="" />
+                {/* <div className="avatar">
+                    <img src="https://avatars.githubusercontent.com/u/108292786?s=400&u=8cd906ad42c90cc795c8954bf9c5afc7723da517&v=4" alt="" />
                     <h3>Ravi</h3>
-                </div>
+                </div> */}
 
 
             </div>

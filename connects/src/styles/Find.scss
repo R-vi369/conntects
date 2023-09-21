@@ -1,28 +1,3 @@
 .find{
-
- width: 100%;
- height: 100vh;
- background-color:#211b3e ;
- margin-top: 2rem;
-
- display: flex;
- justify-items: center;
-
- .find_box{
- 
-   align-items: center;
-   width:20%;
-   height: 40vh;
    background-color: green;
-   display: flex;
-   padding-top: 10rem;
- }
-
-
-}
-
-@media (max-width:"786px") {
-     .find{
-        margin-top: 5.5rem;
-     }
 }

@@ -8,13 +8,17 @@ const Find = () => {
     <>
 
       <div className="find">
-        <div className="find_wrap">
-       <div className="find_box">
-        <BiSearchAlt2/>
-        <input type="text" placeholder='search' />
-       </div>
-             
-        </div>
+       
+     <div className="find_search">
+   
+     <div className="find_search_input">
+       < BiSearchAlt2/>
+       <input type="text"  placeholder='Search'/>
+     </div>
+
+
+     </div>
+
       </div>
 
 

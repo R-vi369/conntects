@@ -1,5 +1,6 @@
 import React from 'react'
-import VideosHere from './VideosHere';
+// import VideosHere from './VideosHere';
+import {BiSearchAlt2} from 'react-icons/bi'
 import '../styles/Find.scss'
 
 const Find = () => {
@@ -7,10 +8,12 @@ const Find = () => {
     <>
 
       <div className="find">
-        
-          <VideosHere/>
-          <VideosHere/>
-
+       
+       <div className="find_box">
+        <BiSearchAlt2/>
+        <input type="text" placeholder='search' />
+       </div>
+             
       </div>
 
 

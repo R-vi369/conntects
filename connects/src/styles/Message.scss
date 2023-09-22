@@ -1,0 +1,42 @@
+@media (max-width: "786px") {
+    
+}
+.message{
+
+    width: 100%;
+    height: 100vh;
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    
+    .message_box{
+        width: 70%;
+        height: 60vh;
+        border: 2px solid white;
+        margin-top: 7rem;
+        // background-color: red;
+
+        .message_box_chat{
+            width: 100%;
+            height: 10vh;
+            background-color: rgb(205, 189, 189);
+            .chat_1{
+                display: flex;
+                align-items: center;
+                text-decoration: none;
+                color: black;
+                gap: 1rem;
+
+                img{
+                    width: 3rem;
+                    margin: 0.3rem;
+                    height: 3rem;
+                    border-radius: 50%;
+                    object-fit: cover;
+                }
+            }
+        }
+
+
+    }
+}

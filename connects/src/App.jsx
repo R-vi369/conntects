@@ -5,6 +5,7 @@ import Find from './pages/Find'
 import Message from './pages/Message'
 import Story from './pages/Story'
 import Notify from './pages/Notify'
+import Chat from './pages/Chat'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path='/Message' element={<Message />} />
           <Route path='/Story' element={<Story />} />
           <Route path='/Notify' element={<Notify />} />
+          <Route path='/Chat' element={<Chat/>}/>
         </Routes>
       </Router>
 

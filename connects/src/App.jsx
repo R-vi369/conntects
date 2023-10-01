@@ -6,12 +6,12 @@ import Message from './pages/Message'
 import Story from './pages/Story'
 import Notify from './pages/Notify'
 import Chat from './pages/Chat'
-import Login from './Login'
+// import Login from './Login'
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
 const App = () => {
   return (
     <>
-      {/* <Router>
+      <Router>
         <Header />
         <Routes>
           <Route path='/' exect element={<Hero />} />
@@ -21,9 +21,9 @@ const App = () => {
           <Route path='/Notify' element={<Notify />} />
           <Route path='/Chat' element={<Chat/>}/>
         </Routes>
-      </Router> */}
+      </Router>
 
-   <Login/>
+   {/* <Login/> */}
 
     </>
   )
